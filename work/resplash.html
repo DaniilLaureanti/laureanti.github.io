@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="Computer Engineering student @ the University of Waterloo">
+	<meta name="keywords" content="brandon lam, portfolio, software developer">
+	<meta name="author" content="Brandon Lam">
+	<link href="../favicon.ico" rel="icon" type="image/x-icon" />
+	<title>Brandon Lam</title>
+	<link rel="stylesheet" href="../css/style.css">
+
+	<!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="../assets/owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="../assets/owlcarousel/owl.theme.default.min.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div id="title">
+				<h1><a href="https://b-lam.github.io">WEBSITE c/o BRANDON LAM</a></h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="https://b-lam.github.io/work">Work.</a></li>
+					<li><a href="https://b-lam.github.io/contact">Contact.</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="container">
+			<div class="article">
+				<h1>Resplash</h1>
+				<div class="content">
+					<div class="carousel-portrait">
+						<div class="owl-carousel owl-theme">
+							<div class="item image-portrait">
+								<img src="../img/resplash/resplash_1.jpg">
+							</div>
+							<div class="item image-portrait">
+								<img src="../img/resplash/resplash_3.jpg">
+							</div>
+							<div class="item image-portrait">
+								<img src="../img/resplash/resplash_2.jpg">
+							</div>
+							<div class="item image-portrait">
+								<img src="../img/resplash/resplash_6.jpg">
+							</div>
+							<div class="item image-portrait">
+								<img src="../img/resplash/resplash_4.jpg">
+							</div>
+							<div class="item image-portrait">
+								<img src="../img/resplash/resplash_5.jpg">
+							</div>
+							<div class="item image-portrait">
+								<img src="../img/resplash/resplash_7.jpg">
+							</div>
+						</div>
+					</div>
+					<div class="content-text">
+						<p>Resplash is an Android client for Unsplash with 1M+ downloads on Google Play.
+						</p>
+						<ul class="item-links">
+							<li>Download // 
+								<a href="https://play.google.com/store/apps/details?id=com.b_lam.resplash" target="_blank">Google Play</a>
+							</li>
+							<li>Source // 
+								<a href="https://github.com/b-lam/Resplash" target="_blank">GitHub</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</main>
+
+    <!-- Owl Carousel Javascript -->
+	<script src="../assets/jquery.min.js"></script>
+	<script src="../assets/owlcarousel/owl.carousel.min.js"></script>
+
+	<script>
+		$(document).ready(function() {
+			var owl = $('.owl-carousel');
+			owl.owlCarousel({
+				items: 1,
+				center: true,
+				autoWidth: true,
+				autoplay: true,
+				loop: true
+			})
+		})
+	</script>
+</body>
+</html>
