@@ -1,1 +1,1 @@
-# [laureanti.github.io](https://laureanti.github.io/)
+# [laureanti.com](https://www.laureant.com/)
