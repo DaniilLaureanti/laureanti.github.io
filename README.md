@@ -1,1 +1,1 @@
-# [laureanti.com](https://www.laureant.com/)
+# [laureanti.com](https://www.laureanti.com/)
